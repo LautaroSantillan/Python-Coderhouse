@@ -1,0 +1,8 @@
+setup.py
+2daPre_entrega_Santillan.egg-info/PKG-INFO
+2daPre_entrega_Santillan.egg-info/SOURCES.txt
+2daPre_entrega_Santillan.egg-info/dependency_links.txt
+2daPre_entrega_Santillan.egg-info/top_level.txt
+paqueteSegundaEntrega/__init__.py
+paqueteSegundaEntrega/clases.py
+paqueteSegundaEntrega/register.py
