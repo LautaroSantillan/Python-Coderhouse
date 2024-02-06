@@ -1,8 +1,0 @@
-setup.py
-paqueteSegundaEntrega/__init__.py
-paqueteSegundaEntrega/clases.py
-paqueteSegundaEntrega/register.py
-paqueteSegundaEntrega.egg-info/PKG-INFO
-paqueteSegundaEntrega.egg-info/SOURCES.txt
-paqueteSegundaEntrega.egg-info/dependency_links.txt
-paqueteSegundaEntrega.egg-info/top_level.txt
