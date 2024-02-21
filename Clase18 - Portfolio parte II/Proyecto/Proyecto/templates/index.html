@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - Class 18</title>
+</head>
+<body style="background-color: bisque;">
+    <h1>Welcome to Django</h1>
+    <p>In this page we learned about how do you use Django</p>
+    <p><strong>Today is: </strong>{{time}}</p>
+    <hr>
+    {% for x in names %}
+    <p>{{x}}</p>
+    {% endfor %}
+
+    {% if random > 5%}
+    <p style="color: cornflowerblue;">{{random}} --- Amazing!!</p>
+    {% else %}
+    <p style="color: cadetblue;">{{random}} --- Try again</p>
+    {% endif %}
+</body>
+</html>
