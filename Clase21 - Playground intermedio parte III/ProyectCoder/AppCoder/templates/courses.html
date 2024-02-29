@@ -1,0 +1,12 @@
+{% extends "father.html" %}
+
+{% block formulario %}
+<hr>
+<h2>Formulario para crear cursos:</h2>
+<form action="/AppCoder/CreateCourses/" method="post"> {% csrf_token %}
+    <p>Nombre: <input type="text" name="name" placeholder="Ingrese aqui"> </p>
+    <p>Comision: <input type="text" name="comision" placeholder="Ingrese aqui"> </p>
+    <input type="submit">
+</form>
+
+{% endblock %}

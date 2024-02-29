@@ -1,0 +1,21 @@
+{% extends "father.html" %}
+
+{% block titulo %}
+    There're all of the students
+{% endblock %}
+
+{% block formulario %}
+<hr>
+<h2>Formulario para ver cursos:</h2>
+<form action="/AppCoder/SeeCourses/" method="GET">
+    <p>
+        <input type="text" name="name" id="name">
+        <input type="submit" name="searching">
+    </p>
+</form>
+<p>{{message}}</p>
+{% for course in courses %}
+    <p>{{course}}</p>
+{% endfor %}
+
+{% endblock %}
